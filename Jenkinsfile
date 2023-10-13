@@ -6,7 +6,7 @@ pipeline {
                 steps {
                 git branch: 'develop',
                 credentialsId: 'githubCredential',
-                url: 'https://github.com/vladbronfman/abra-assignment.git'
+                url: 'https://github.com/vbronfman/abra-assignment.git'
                 }
         }
         
